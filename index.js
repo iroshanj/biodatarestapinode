@@ -62,7 +62,7 @@ server.post("/upload", upload.single("photo"), (req, res) => {
   console.log(req.file);
   res.json({
     success: 1,
-    url: `https://biodatarestapinode-1.onrender.com//photo/${req.file.filename}`,
+    url: `https://biodatarestapinode-2.onrender.com/photo/${req.file.filename}`,
   });
 });
 
