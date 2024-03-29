@@ -2,6 +2,12 @@ const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
 const usersSchema = new Schema({
+  expected:String,
+  blood:String,
+  marstatus:String,
+  age:Number,
+  hobbies:String,
+  height:String,
   tob:String,
   pob:String,
   name: String,
