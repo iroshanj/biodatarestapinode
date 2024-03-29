@@ -32,6 +32,9 @@ exports.update = async(req, res) => {
     address:req.body.address,
     income:req.body.income,
     cast:req.body.cast,
+    height:req.body.height,
+    expected:req.body.expected,
+    marstatus:req.body.marstatus
    });
    res.json(allUsers)
 }
